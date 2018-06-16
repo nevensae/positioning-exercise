@@ -1,5 +1,6 @@
-body {
+body * {
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .hero {
@@ -9,6 +10,7 @@ body {
 	background-image: url('https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg');
 	background-size: cover;
 	background-position: center;
+	position: relative;
 }
 
 .hero * {
@@ -18,4 +20,29 @@ body {
 .hero .goat {
 	font-size: 150%;
 	background-color: green;
+}
+
+.topRight {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+
+.bottomLeft {
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+}
+
+.goat {
+	left: 60%;
+	top: 55%;
+	position: absolute;
+	color: black;
 }

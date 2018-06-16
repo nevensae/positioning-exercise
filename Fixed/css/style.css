@@ -9,6 +9,7 @@ body {
 
 .arrowUp, .arrowDown, .facebook, .instagram {
 	font-size: 300%;
+	position: fixed;
 }
 
 .arrowUp a, .arrowDown a, .facebook a, .instagram a {
@@ -18,16 +19,33 @@ body {
 
 .arrowUp a, .arrowDown a {
 	color: red;
+
 }
 
 .facebook a {
 	color: #3B5998;
+	position: fixed;
+	top: 40%;
 }
 
 .instagram a {
 	color: #fb3958;
+	bottom: 40%;
+	position: fixed;
 }
 
 .arrowUp a:hover, .arrowDown a:hover, .facebook a:hover, .instagram a:hover{
 	color: blue;
+}
+
+.arrowUp {
+	position: fixed;
+	top: 40%;
+	right: 0px;
+}
+
+.arrowDown {
+	position: fixed;
+	bottom: 40%;
+	right: 0px;
 }
